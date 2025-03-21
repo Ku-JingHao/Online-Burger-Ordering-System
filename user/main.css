@@ -1,0 +1,131 @@
+ body {
+        background-color: black;
+}
+    
+.container{
+        font-family:sans-serif;
+}
+    
+ 
+div a:hover {
+        color: #f42f2c;
+}
+    
+
+.main { 
+        display: flex;
+        font-size: 20px;
+        justify-content: center;
+        border-top: 2px solid rgba(255, 255, 255, 0.2);
+        border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+        padding-bottom: 20px;
+        padding-top: 20px;
+        padding-left: 15px;
+        padding-right: 15px;	
+}
+    
+.main a {
+        color: white;
+        text-decoration: none;
+        padding: 0 16px 0px 16px;
+}
+
+.login {
+        position:absolute;
+		right:100px;
+}
+  
+.login a {
+
+	color: white;
+	text-decoration: none;
+	padding: 0px 16px 0px 16px;
+}
+
+.login_register{
+	border: 1px solid white;
+	background: transparent;
+	color: white;
+	display: block;
+	line-height: 40px;
+	width:170px;
+	font-size: 20px;
+	cursor: pointer;
+	position: relative;
+	bottom: 10px;
+
+
+
+}
+
+.welcome-word{
+		margin: 0 auto;
+		margin-left: 540px;
+		margin-top:130px;
+        padding-top: 80px;
+		padding-left: 200px;
+        color: white;
+        max-width: 600px;
+}
+
+.welcome-word h2 {
+        
+        font-size: 30px;
+        font-weight: 700;
+		font-family: 'Times new Roman';
+		margin: 0;
+		
+}
+	
+.welcome-word h3 {
+        font-size: 70px;
+        font-weight: bold;
+		font-family: 'Georgia';
+		color:orange;
+	    margin: 0
+}
+    
+.welcome-word p {
+        
+        font-size: 20px;
+		font-family: 'Times new Roman';
+		margin: 0;
+}
+    
+.btn{
+        background-color: #f42f2c;
+        line-height: 42px;
+        margin-top: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+        border: none;
+        color: #fff;
+        display: inline-block;
+        font-size: 20px;
+        font-weight: 500;
+        position: relative;
+		cursor: pointer;
+		border-radius:3px;
+		font-family:Comic Sans MS;
+}
+
+.popout{
+	width: 120px;
+	background: black;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 0 30px 30px;
+	color: white;
+	visibility: hidden;
+	transition: transform 0.4s, top 0.4s;
+	padding-top: 20px;
+	text-align: center;
+	
+}
+
+.open-popout{
+	visibility: visible;
+}
+
