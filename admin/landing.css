@@ -1,0 +1,103 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+body{
+	
+	font-family: 'Varela Round', sans-serif;
+	background-image: url("Image/white1.jpg");
+	background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+}
+
+.header{
+	width: 100%;
+	height: 100%;
+	
+}
+.side{
+	width: 250px;
+	height: 100%;
+	background: #343434;
+	position: fixed;
+	top: 0;
+	left: 0;
+	padding: 20px 30px;
+}
+
+.logo{
+	display: block;
+	margin-bottom: 80px;
+	margin-left: 17px;
+}
+
+.lg{
+	width: 150px;
+}
+
+.links{
+	list-style: none;
+	position: relative;
+}
+
+.links li{
+	padding: 10px 0;
+}
+
+.links li a{
+	color: white;
+	text-decoration: none;
+	padding: 10px 14px;
+	display: flex;
+	text-align: center;
+	border: 2px solid white;
+	border-radius: 25px;
+	justify-content: center;
+	font-weight: bold;
+}
+
+.card {
+	text-align: center; 
+	color: black;
+	margin-top: 50px;
+}
+
+.cardbox{
+	width: 100%;
+	padding: 20px;
+	display: inline-grid;
+	grid-template-columns:  repeat(auto-fit, 19rem);
+	gap:1.7rem;
+	justify-content:center;
+	padding-left:250px;
+	
+}
+
+.cardbox h2{
+	font-family:Average;
+	font-size:50px;
+	position: absolute;
+	padding: 30px;
+	left: 550px;
+}
+
+.card1, .card2, .card3, .card4{
+	border: 2px solid black;
+	padding: 30px 30px 30px 30px;
+
+}
+
+.card{
+	padding:40px;
+	padding-top: 100px;
+	font-weight:bold;
+	text-decoration: none;
+}
+
+.card a{
+	text-decoration: none;
+}
